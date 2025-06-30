@@ -1,6 +1,10 @@
 {
   "item.wegetthere.martonszeugnis": "Martons Zeugnis",
   "item.wegetthere.rafaelszeugnis": "Rafaels Zeugnis",
+  "item.wegetthere.janicszeugnis": "Janics Zeugnis",
+
+
   "item.wegetthere.alexandrite": "Alexandrite",
-  "item.wegetthere.raw_alexandrite": "Raw Alexandrite"
+  "item.wegetthere.raw_alexandrite": "Raw Alexandrite",
+  "item.wegetthere.alexandrite_block": "Alexandrite Block"
 }

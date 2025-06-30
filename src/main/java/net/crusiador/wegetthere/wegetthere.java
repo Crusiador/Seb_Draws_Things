@@ -1,6 +1,7 @@
 package net.crusiador.wegetthere;
 
 import com.mojang.logging.LogUtils;
+import net.crusiador.wegetthere.block.ModBlocks;
 import net.crusiador.wegetthere.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,6 +34,7 @@ public class wegetthere {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
 
@@ -51,8 +53,13 @@ public class wegetthere {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MARTONSZEUGNIS);
             event.accept(ModItems.RAFAELSZEUGNIS);
+            event.accept(ModItems.JANICSZEUGNIS);
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ALEXANDRITE_BlocK);
         }
     }
 
