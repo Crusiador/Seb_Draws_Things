@@ -54,6 +54,7 @@ public class wegetthere {
             event.accept(ModItems.MARTONSZEUGNIS);
             event.accept(ModItems.RAFAELSZEUGNIS);
             event.accept(ModItems.JANICSZEUGNIS);
+            event.accept(ModItems.KORAYSZEUGNIS);
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
         }
