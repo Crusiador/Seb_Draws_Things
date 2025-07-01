@@ -7,5 +7,7 @@
 
   "item.wegetthere.alexandrite": "Alexandrite",
   "item.wegetthere.raw_alexandrite": "Raw Alexandrite",
-  "item.wegetthere.alexandrite_block": "Alexandrite Block"
+  "block.wegetthere.alexandrite_block": "Alexandrite Block",
+
+  "item.wegetthere.schwabelschwert": "Schwabelschwert"
 }

@@ -62,6 +62,10 @@ public class wegetthere {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BlocK);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.SCHWABELSCHWERT);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
