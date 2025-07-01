@@ -23,6 +23,14 @@ public static final RegistryObject<Block> ALEXANDRITE_BlocK = registerBlock("ale
         () -> new Block(BlockBehaviour.Properties.of()
                 .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+public static final RegistryObject<Block> RAW_ALEXANDRITE_BlocK = registerBlock("raw_alexandrite_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .strength(3f).requiresCorrectToolForDrops()));
+
+public static final RegistryObject<Block> JOEL = registerBlock("joel",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .strength(1f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

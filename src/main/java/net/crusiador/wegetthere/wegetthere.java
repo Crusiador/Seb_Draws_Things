@@ -61,7 +61,8 @@ public class wegetthere {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BlocK);
-            event.accept(ModItems.JOEL);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BlocK);
+            event.accept(ModBlocks.JOEL);
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
