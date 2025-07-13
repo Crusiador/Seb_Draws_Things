@@ -41,6 +41,10 @@ public static final RegistryObject<Block> JOEL = registerBlock("joel",
         () -> new Block(BlockBehaviour.Properties.of()
                 .strength(1f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
+public static final RegistryObject<Block> RICCARDO = registerBlock("riccardo",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER_BULB)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
