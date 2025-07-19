@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.item;
 
+import net.crusiador.wegetthere.item.custom.ChiselItem;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KORAYSZEUGNIS = ITEMS.register("korayszeugnis",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            ()-> new ChiselItem(new Item.Properties().durability(32)));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
