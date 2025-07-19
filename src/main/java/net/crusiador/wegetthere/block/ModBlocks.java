@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.block;
 
+import net.crusiador.wegetthere.block.custom.MagicBlock;
 import net.crusiador.wegetthere.item.ModItems;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -36,6 +37,9 @@ public static final RegistryObject<Block> RAW_ALEXANDRITE_BlocK = registerBlock(
     public static final RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
 

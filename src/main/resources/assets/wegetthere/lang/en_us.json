@@ -4,6 +4,8 @@
   "item.wegetthere.janicszeugnis": "Janics Zeugnis",
   "item.wegetthere.korayszeugnis": "Korays Zeugnis",
 
+  "block.wegetthere.riccardo": "Riccardo",
+  "block.wegetthere.joel": "Joel",
 
   "item.wegetthere.alexandrite": "Alexandrite",
   "item.wegetthere.raw_alexandrite": "Raw Alexandrite",
@@ -11,12 +13,12 @@
   "block.wegetthere.raw_alexandrite_block": "Raw Alexandrite Block",
   "block.wegetthere.alexandrite_ore": "Alexandrite Ore",
   "block.wegetthere.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Block",
-  "item.wegetthere.chisel": "Chisel",
 
+  "block.wegetthere.magic_block": "Magic Block",
 
-  "block.wegetthere.riccardo": "Riccardo",
-  "block.wegetthere.joel": "Joel"
+  "item.wegetthere.chisel": "Chisel"
 
 
 }
