@@ -66,10 +66,10 @@ public class wegetthere {
             event.accept(ModBlocks.ALEXANDRITE_BlocK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BlocK);
             event.accept(ModBlocks.JOEL);
+            event.accept(ModBlocks.RICCARDO);
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.SCHWABELSCHWERT);
         }
     }
 

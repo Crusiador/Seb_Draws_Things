@@ -23,8 +23,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KORAYSZEUGNIS = ITEMS.register("korayszeugnis",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SCHWABELSCHWERT = ITEMS.register("schwabelschwert",
-            () -> new Item(new Item.Properties()));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

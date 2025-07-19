@@ -11,11 +11,11 @@
   "block.wegetthere.raw_alexandrite_block": "Raw Alexandrite Block",
   "block.wegetthere.alexandrite_ore": "Alexandrite Ore",
   "block.wegetthere.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "creativetab.tutorialmod.alexandrite_items": "Alexandrite Block",
+
+
   "block.wegetthere.riccardo": "Riccardo",
-
   "block.wegetthere.joel": "Joel",
+  "item.wegetthere.schwabelschwert": "Schwabelschwert"
 
-  "item.wegetthere.schwabelschwert": "Schwabelschwert",
-
-  "creativetab.tutorialmod.alexandrite_items": "Alexandrite Block"
 }
