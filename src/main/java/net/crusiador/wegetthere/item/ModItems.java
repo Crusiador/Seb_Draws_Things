@@ -1,6 +1,7 @@
 package net.crusiador.wegetthere.item;
 
 import net.crusiador.wegetthere.item.custom.ChiselItem;
+import net.crusiador.wegetthere.item.custom.TnstabItem;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +17,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAFAELSZEUGNIS = ITEMS.register("rafaelszeugnis",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IKNOWWHATYOUARE = ITEMS.register("iknowwhatyouare",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TREEFROG = ITEMS.register("treefrog",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
@@ -26,6 +31,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             ()-> new ChiselItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> TNSTAB = ITEMS.register("tnstab",
+            () -> new TnstabItem(new Item.Properties()));
+
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

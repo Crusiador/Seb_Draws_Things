@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "wegetthere:bimygo",
+ "key": {
+  "A": {
+   "item": "wegetthere:treefrog"
+  },
+  "B": {
+   "item": "wegetthere:iknowwhatyouare"
+  }
+ },
+ "pattern": [
+  "AAA",
+  "ABA",
+  "AAA"
+ ],
+ "result": {
+  "count": 9,
+  "id": "wegetthere:bimygo"
+ }
+}

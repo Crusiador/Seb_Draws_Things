@@ -60,6 +60,8 @@ public class wegetthere {
             event.accept(ModItems.KORAYSZEUGNIS);
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.IKNOWWHATYOUARE);
+            event.accept(ModItems.TREEFROG);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -67,9 +69,12 @@ public class wegetthere {
             event.accept(ModBlocks.RAW_ALEXANDRITE_BlocK);
             event.accept(ModBlocks.JOEL);
             event.accept(ModBlocks.RICCARDO);
+            event.accept(ModBlocks.BIMYGO);
+
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.TNSTAB);
         }
     }
 

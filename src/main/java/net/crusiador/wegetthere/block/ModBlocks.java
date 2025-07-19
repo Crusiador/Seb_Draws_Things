@@ -41,6 +41,10 @@ public static final RegistryObject<Block> RAW_ALEXANDRITE_BlocK = registerBlock(
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> BIMYGO = registerBlock("bimygo",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops()));
+
 
 
 
