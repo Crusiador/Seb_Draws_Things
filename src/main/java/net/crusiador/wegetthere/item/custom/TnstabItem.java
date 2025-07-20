@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.item.custom;
 
+import net.crusiador.wegetthere.block.ModBlocks;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -21,7 +22,10 @@ public class TnstabItem extends Item {
                     Blocks.GRASS_BLOCK, Blocks.TNT,
                     Blocks.DIRT, Blocks.TNT,
                     Blocks.OAK_LOG, Blocks.TNT,
-                    Blocks.OAK_LEAVES, Blocks.TNT
+                    Blocks.OAK_LEAVES, Blocks.TNT,
+                    Blocks.ACACIA_BUTTON, Blocks.TNT,
+                    ModBlocks.JOEL.get(), Blocks.TNT,
+                    ModBlocks.RICCARDO.get(), Blocks.TNT
 
 
             );
