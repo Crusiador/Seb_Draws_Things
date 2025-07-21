@@ -16,20 +16,30 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ALEXANDRITE_ITEMS_TAB = CREATIVE_MODE_TABS.register("alexanderite_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
-                    .title(Component.translatable("creativetab.tutorialmod.alexandrite_items"))
+                    .title(Component.translatable("creativetab.wegetthere.alexandrite_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.RAW_ALEXANDRITE.get());
                         output.accept(ModItems.ALEXANDRITE.get());
-                        output.accept(ModBlocks.RAW_ALEXANDRITE_BlocK.get());
+                        output.accept(ModItems.RAW_ALEXANDRITE.get());
+
+                        output.accept(ModItems.CHISEL.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexanderite_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALEXANDRITE_BlocK.get()))
+                    .withTabsBefore(ALEXANDRITE_ITEMS_TAB.getId())
+                    .title(Component.translatable("creativetab.wegetthere.alexandrite_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ALEXANDRITE_BlocK.get());
+                        output.accept(ModBlocks.RAW_ALEXANDRITE_BlocK.get());
+
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
 
-                        output.accept(ModItems.CHISEL.get());
-
                     }).build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

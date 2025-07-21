@@ -24,10 +24,7 @@ public class ChiselItem extends Item {
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
                     Blocks.IRON_BLOCK, Blocks.DIAMOND_BLOCK,
-                    Blocks.DIRT, ModBlocks.ALEXANDRITE_BlocK.get(),
-                    ModBlocks.RICCARDO.get(), ModBlocks.JOEL.get(),
-                    ModBlocks.JOEL.get(), ModBlocks.RICCARDO.get()
-
+                    Blocks.DIRT, ModBlocks.ALEXANDRITE_BlocK.get()
             );
 
 
