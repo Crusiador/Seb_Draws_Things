@@ -54,27 +54,16 @@ public class wegetthere {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.MARTONSZEUGNIS);
-            event.accept(ModItems.RAFAELSZEUGNIS);
-            event.accept(ModItems.JANICSZEUGNIS);
-            event.accept(ModItems.KORAYSZEUGNIS);
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
-            event.accept(ModItems.IKNOWWHATYOUARE);
-            event.accept(ModItems.TREEFROG);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BlocK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BlocK);
-            event.accept(ModBlocks.JOEL);
-            event.accept(ModBlocks.RICCARDO);
-            event.accept(ModBlocks.BIMYGO);
-
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.TNSTAB);
         }
     }
 

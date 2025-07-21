@@ -1,15 +1,4 @@
 {
-  "item.wegetthere.martonszeugnis": "Martons Zeugnis",
-  "item.wegetthere.rafaelszeugnis": "Rafaels Zeugnis",
-  "item.wegetthere.janicszeugnis": "Janics Zeugnis",
-  "item.wegetthere.korayszeugnis": "Korays Zeugnis",
-
-  "block.wegetthere.riccardo": "Riccardo",
-  "block.wegetthere.joel": "Joel",
-  "block.wegetthere.bimygo": "BimYGO",
-  "item.wegetthere.iknowwhatyouare": "I know what you are :)",
-  "item.wegetthere.treefrog": "Tree Frog",
-
   "item.wegetthere.alexandrite": "Alexandrite",
   "item.wegetthere.raw_alexandrite": "Raw Alexandrite",
   "block.wegetthere.alexandrite_block": "Alexandrite Block",
@@ -21,9 +10,8 @@
 
   "block.wegetthere.magic_block": "Magic Block",
 
-  "item.wegetthere.chisel": "Chisel",
+  "item.wegetthere.chisel": "Chisel"
 
-  "item.wegetthere.tnstab": "TNT Stick"
 
 
 }

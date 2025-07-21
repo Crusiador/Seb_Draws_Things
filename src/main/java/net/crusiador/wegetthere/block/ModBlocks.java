@@ -41,23 +41,6 @@ public static final RegistryObject<Block> RAW_ALEXANDRITE_BlocK = registerBlock(
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> BIMYGO = registerBlock("bimygo",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops()));
-
-
-
-
-
-public static final RegistryObject<Block> JOEL = registerBlock("joel",
-        () -> new Block(BlockBehaviour.Properties.of()
-                .strength(1f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
-
-public static final RegistryObject<Block> RICCARDO = registerBlock("riccardo",
-        () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER_BULB)));
-
-
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
