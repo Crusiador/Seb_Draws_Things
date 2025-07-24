@@ -11,7 +11,33 @@
 
   "block.wegetthere.magic_block": "Magic Block",
 
-  "item.wegetthere.chisel": "Chisel"
+  "item.wegetthere.chisel": "Chisel",
+
+  "block.wegetthere.sa": "§",
+  "block.wegetthere.sb": "§",
+  "block.wegetthere.sc": "§",
+  "block.wegetthere.sd": "§",
+  "block.wegetthere.se": "§",
+  "block.wegetthere.sf": "§",
+  "block.wegetthere.sg": "§",
+  "block.wegetthere.sh": "§",
+  "block.wegetthere.si": "§",
+  "block.wegetthere.sj": "§",
+  "block.wegetthere.sk": "§",
+  "block.wegetthere.sl": "§",
+  "block.wegetthere.sm": "§",
+  "block.wegetthere.sn": "§",
+  "block.wegetthere.so": "§",
+  "block.wegetthere.sp": "§",
+  "block.wegetthere.sq": "§",
+  "block.wegetthere.sr": "§",
+  "block.wegetthere.ss": "§",
+  "block.wegetthere.st": "§",
+  "block.wegetthere.su": "§",
+  "block.wegetthere.sv": "§",
+  "block.wegetthere.sw": "§",
+  "block.wegetthere.sx": "§",
+  "block.wegetthere.sy": "§"
 
 
 

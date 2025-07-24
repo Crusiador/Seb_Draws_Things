@@ -38,7 +38,36 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
 
+                        output.accept(ModBlocks.SA.get());
+                        output.accept(ModBlocks.SB.get());
+                        output.accept(ModBlocks.S3.get());
+                        output.accept(ModBlocks.S4.get());
+                        output.accept(ModBlocks.S5.get());
+                        output.accept(ModBlocks.S6.get());
+                        output.accept(ModBlocks.S7.get());
+                        output.accept(ModBlocks.S8.get());
+                        output.accept(ModBlocks.S9.get());
+                        output.accept(ModBlocks.S10.get());
+                        output.accept(ModBlocks.S11.get());
+                        output.accept(ModBlocks.S12.get());
+                        output.accept(ModBlocks.S13.get());
+                        output.accept(ModBlocks.S14.get());
+                        output.accept(ModBlocks.S15.get());
+                        output.accept(ModBlocks.S16.get());
+                        output.accept(ModBlocks.S17.get());
+                        output.accept(ModBlocks.S18.get());
+                        output.accept(ModBlocks.S19.get());
+                        output.accept(ModBlocks.S20.get());
+                        output.accept(ModBlocks.S21.get());
+                        output.accept(ModBlocks.S22.get());
+                        output.accept(ModBlocks.S23.get());
+                        output.accept(ModBlocks.S24.get());
+                        output.accept(ModBlocks.S25.get());
+
                     }).build());
+
+
+
 
 
     public static void register(IEventBus eventBus) {
