@@ -41,79 +41,79 @@ public static final RegistryObject<Block> RAW_ALEXANDRITE_BlocK = registerBlock(
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SA = registerBlock("sa",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SB = registerBlock("sb",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S3 = registerBlock("sc",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S4 = registerBlock("sd",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S5 = registerBlock("se",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S6 = registerBlock("sf",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S7 = registerBlock("sg",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S8 = registerBlock("sh",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S9 = registerBlock("si",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S10 = registerBlock("sj",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S11 = registerBlock("sk",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S12 = registerBlock("sl",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S13 = registerBlock("sm",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S14 = registerBlock("sn",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S15 = registerBlock("so",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S16 = registerBlock("sp",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S17 = registerBlock("sq",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S18 = registerBlock("sr",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S19 = registerBlock("ss",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S20 = registerBlock("st",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S21 = registerBlock("su",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S22 = registerBlock("sv",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S23 = registerBlock("sw",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S24 = registerBlock("sx",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> S25 = registerBlock("sy",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
