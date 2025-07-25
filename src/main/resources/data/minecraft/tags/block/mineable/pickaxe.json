@@ -1,9 +1,5 @@
 {
   "replace": false,
   "values": [
-    "wegetthere:alexandrite_block",
-    "wegetthere:raw_alexandrite_block",
-    "wegetthere:alexandrite_ore",
-    "wegetthere:alexandrite_deepslate_ore"
   ]
 }
