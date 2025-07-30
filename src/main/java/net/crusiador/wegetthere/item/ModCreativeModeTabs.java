@@ -43,6 +43,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.S23.get());
                         output.accept(ModBlocks.S24.get());
                         output.accept(ModBlocks.S25.get());
+                        output.accept(ModBlocks.SHREK.get());
+                        output.accept(ModBlocks.PY.get());
+                        output.accept(ModBlocks.COW.get());
+                        output.accept(ModBlocks.PUY.get());
 
                     }).build());
 

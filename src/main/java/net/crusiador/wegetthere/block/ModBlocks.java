@@ -92,6 +92,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> S25 = registerBlock("sy",
             () -> new Block(BlockBehaviour.Properties.of()));
 
+    public static final RegistryObject<Block> SHREK = registerBlock("shrek",
+            () -> new Block(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> PY = registerBlock("py",
+            () -> new Block(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> COW = registerBlock("cow",
+            () -> new Block(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> PUY = registerBlock("puy",
+            () -> new Block(BlockBehaviour.Properties.of()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
