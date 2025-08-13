@@ -1,7 +1,7 @@
-package net.crusiador.wegetthere.item;
+package net.crusiador.wegetthere;
 
 import net.crusiador.wegetthere.block.ModBlocks;
-import net.crusiador.wegetthere.wegetthere;
+import net.crusiador.wegetthere.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
