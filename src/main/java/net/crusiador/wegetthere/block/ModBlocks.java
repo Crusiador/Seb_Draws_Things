@@ -17,10 +17,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, wegetthere.MOD_ID);
 
-    public static final RegistryObject<Block> SA = registerBlock("sa",
+    public static final RegistryObject<Block> S1 = registerBlock("sa",
             () -> new Block(BlockBehaviour.Properties.of()));
 
-    public static final RegistryObject<Block> SB = registerBlock("sb",
+    public static final RegistryObject<Block> S2 = registerBlock("sb",
             () -> new Block(BlockBehaviour.Properties.of()));
 
     public static final RegistryObject<Block> S3 = registerBlock("sc",
@@ -103,6 +103,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PUY = registerBlock("puy",
             () -> new Block(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> SEBONITE_ORE = registerBlock("sebonite_ore",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SEBONITE_DEEPSLATE_ORE = registerBlock("sebonite_deepslate_ore",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SEB_LUCKY_BLOCK = registerBlock("seb_lucky_block",
+            ()-> new Block(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> SEBONITE_BLOCK = registerBlock("sebonite_block",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

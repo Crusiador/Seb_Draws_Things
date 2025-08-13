@@ -18,8 +18,8 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.S13.get()))
                     .title(Component.translatable("creativetab.wegetthere.seb.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.SA.get());
-                        output.accept(ModBlocks.SB.get());
+                        output.accept(ModBlocks.S1.get());
+                        output.accept(ModBlocks.S2.get());
                         output.accept(ModBlocks.S3.get());
                         output.accept(ModBlocks.S4.get());
                         output.accept(ModBlocks.S5.get());
@@ -47,6 +47,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PY.get());
                         output.accept(ModBlocks.COW.get());
                         output.accept(ModBlocks.PUY.get());
+                        output.accept(ModBlocks.SEBONITE_ORE.get());
+                        output.accept(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.SEB_LUCKY_BLOCK.get());
+
+                        output.accept(ModItems.RAW_SEBONITE.get());
+                        output.accept(ModItems.SEBONITE.get());
 
                     }).build());
 

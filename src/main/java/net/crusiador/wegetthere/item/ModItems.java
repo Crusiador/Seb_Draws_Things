@@ -5,11 +5,19 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, wegetthere.MOD_ID);
+
+    public static final RegistryObject<Item> RAW_SEBONITE = ITEMS.register("raw_sebonite",
+            ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SEBONITE = ITEMS.register("sebonite",
+            ()-> new Item(new Item.Properties()));
+
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
