@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sebonite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wegetthere:sebonite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wegetthere:sebonite_from_blasting_sebonite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sebonite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wegetthere:sebonite_from_blasting_sebonite_ore"
+    ]
+  }
+}

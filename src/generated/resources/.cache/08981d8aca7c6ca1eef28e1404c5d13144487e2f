@@ -1,0 +1,4 @@
+// 1.21	2025-08-13T23:32:49.2255832	Tags for minecraft:block mod id wegetthere
+fdee5d11e8c3bf3718476a3b5128c7a5b0f65af8 data/minecraft/tags/block/mineable/pickaxe.json
+22cf0dc6bed4a3160222e518c42c034ffe23e720 data/minecraft/tags/block/needs_diamond_tool.json
+0a73f54f6e9455d60aff9a041aed384100dae566 data/minecraft/tags/block/needs_iron_tool.json

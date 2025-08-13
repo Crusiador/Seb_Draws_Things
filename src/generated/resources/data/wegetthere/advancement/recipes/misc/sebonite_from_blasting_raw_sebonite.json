@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_sebonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wegetthere:raw_sebonite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wegetthere:sebonite_from_blasting_raw_sebonite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_sebonite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wegetthere:sebonite_from_blasting_raw_sebonite"
+    ]
+  }
+}

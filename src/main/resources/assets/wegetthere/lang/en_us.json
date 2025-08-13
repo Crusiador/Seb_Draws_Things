@@ -27,9 +27,16 @@
 
   "creativetab.wegetthere.seb.blocks": "Seb",
 
+
   "block.wegetthere.shrek": "Shrek",
   "block.wegetthere.py": "Pufferfish",
   "block.wegetthere.cow": "Cow",
-  "block.wegetthere.puy": "§9§kalsdökfaölfks§r"
+  "block.wegetthere.puy": "§9§kalsdökfaölfks§r",
+  "block.wegetthere.sebonite_ore": "Sebonite Ore",
+  "block.wegetthere.sebonite_deepslate_ore": "Sebonite Deepslate Ore",
+  "block.wegetthere.seb_lucky_block": "Seb Lucky Block",
+  "block.wegetthere.sebonite_block": "Sebonite Block",
 
+  "item.wegetthere.raw_sebonite": "Raw Sebonite",
+  "item.wegetthere.sebonite": "Sebonite"
 }
