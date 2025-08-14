@@ -47,14 +47,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PY.get());
                         output.accept(ModBlocks.COW.get());
                         output.accept(ModBlocks.PUY.get());
-                        output.accept(ModBlocks.SEBONITE_ORE.get());
-                        output.accept(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.SEBFORMER.get());
+
                         output.accept(ModBlocks.SEB_LUCKY_BLOCK.get());
 
-                        output.accept(ModBlocks.SOIL.get());
 
+                        output.accept(ModBlocks.SEBONITE_ORE.get());
+                        output.accept(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
                         output.accept(ModItems.RAW_SEBONITE.get());
                         output.accept(ModItems.SEBONITE.get());
+
+                        output.accept(ModBlocks.SOIL.get());
                         output.accept(ModItems.CRISPY_SOIL.get());
                         output.accept(ModItems.BURNED_SOIL.get());
 

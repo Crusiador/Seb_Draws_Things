@@ -53,6 +53,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.SOIL);
 
+        blockWithItem(ModBlocks.SEBFORMER);
+
 
     }
 

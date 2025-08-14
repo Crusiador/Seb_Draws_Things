@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.block.custom;
 
+import net.crusiador.wegetthere.block.ModBlocks;
 import net.crusiador.wegetthere.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -28,7 +29,7 @@ public class SebFormer extends Block {
     @Override
     protected InteractionResult useWithoutItem(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, BlockHitResult pHitResult) {
 
-        pLevel.playSound(pPlayer, pPos, SoundEvents.AMETHYST_CLUSTER_BREAK, SoundSource.BLOCKS, 1f, 1f);
+        pLevel.playSound(pPlayer, pPos, SoundEvents.END_PORTAL_SPAWN, SoundSource.BLOCKS, 1f, 1f);
         return InteractionResult.SUCCESS;
     }
 
@@ -36,7 +37,7 @@ public class SebFormer extends Block {
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity) {
             if(isValidItem(itemEntity.getItem())) {
-                itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
+                itemEntity.setItem(new ItemStack(ModBlocks.SEB_LUCKY_BLOCK.get(), itemEntity.getItem().getCount()));
             }
         }
 
@@ -50,7 +51,7 @@ public class SebFormer extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("tooltip.wegetthere.magic_block.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip.wegetthere.sebformer.tooltip"));
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }

@@ -26,6 +26,7 @@
   "block.wegetthere.sy": "Puzzle Block",
 
   "creativetab.wegetthere.seb.blocks": "Seb",
+  "tooltip.wegetthere.sebformer.tooltip": "§4Give me shiny rock i give you what you need§r",
 
   "block.wegetthere.soil": "Soil",
 
@@ -36,6 +37,7 @@
   "block.wegetthere.sebonite_ore": "Sebonite Ore",
   "block.wegetthere.sebonite_deepslate_ore": "Sebonite Deepslate Ore",
   "block.wegetthere.seb_lucky_block": "Seb Lucky Block",
+  "block.wegetthere.sebformer": "Sebformer",
   "block.wegetthere.sebonite_block": "Sebonite Block",
 
   "item.wegetthere.raw_sebonite": "Raw Sebonite",

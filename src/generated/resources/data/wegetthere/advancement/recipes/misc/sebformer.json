@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "wegetthere:seb_lucky_block"
+        "recipe": "wegetthere:sebformer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "wegetthere:seb_lucky_block"
+      "wegetthere:sebformer"
     ]
   }
 }

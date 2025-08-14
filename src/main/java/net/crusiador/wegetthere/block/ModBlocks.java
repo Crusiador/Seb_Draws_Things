@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.block;
 
+import net.crusiador.wegetthere.block.custom.SebFormer;
 import net.crusiador.wegetthere.item.ModItems;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.world.item.BlockItem;
@@ -110,6 +111,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SEBONITE_DEEPSLATE_ORE = registerBlock("sebonite_deepslate_ore",
             ()-> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SEBFORMER = registerBlock("sebformer",
+            ()-> new SebFormer(BlockBehaviour.Properties.of().strength(10f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SEB_LUCKY_BLOCK = registerBlock("seb_lucky_block",
             ()-> new Block(BlockBehaviour.Properties.of()));
