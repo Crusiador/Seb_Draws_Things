@@ -1,32 +1,27 @@
-[13Aug.2025 23:32:41.228] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rkaes\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, wegetthere, --all, --output, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\generated\resources, --existing, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\main\resources]
-[13Aug.2025 23:32:41.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
-[13Aug.2025 23:32:41.233] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[13Aug.2025 23:32:41.333] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\run-data\config\fml.toml is not correct. Correcting
-[13Aug.2025 23:32:41.334] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[13Aug.2025 23:32:41.334] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[13Aug.2025 23:32:41.335] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[13Aug.2025 23:32:41.335] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[13Aug.2025 23:32:41.347] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[13Aug.2025 23:32:41.449] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rkaes/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[13Aug.2025 23:32:42.281] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Aug.2025 23:32:43.071] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rkaes\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, wegetthere, --all, --output, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\generated\resources, --existing, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\main\resources]
-[13Aug.2025 23:32:48.047] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[13Aug.2025 23:32:48.048] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[13Aug.2025 23:32:48.095] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[13Aug.2025 23:32:48.558] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [wegetthere]
-[13Aug.2025 23:32:48.629] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rkaes/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[13Aug.2025 23:32:48.630] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rkaes/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[13Aug.2025 23:32:48.750] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[13Aug.2025 23:32:49.030] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 279 ms
-[13Aug.2025 23:32:49.030] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[13Aug.2025 23:32:49.064] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 33 ms
-[13Aug.2025 23:32:49.065] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id wegetthere
-[13Aug.2025 23:32:49.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id wegetthere finished after 17 ms
-[13Aug.2025 23:32:49.083] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id wegetthere
-[13Aug.2025 23:32:49.086] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id wegetthere finished after 3 ms
-[13Aug.2025 23:32:49.086] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: wegetthere
-[13Aug.2025 23:32:49.093] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: wegetthere finished after 6 ms
-[13Aug.2025 23:32:49.094] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: wegetthere
-[13Aug.2025 23:32:49.218] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: wegetthere finished after 124 ms
-[13Aug.2025 23:32:49.218] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 469 ms
-[13Aug.2025 23:32:49.228] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 156, old count: 0, new count: 157, removed stale: 0, written: 156
+[14Aug.2025 21:07:00.425] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rkaes\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, wegetthere, --all, --output, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\generated\resources, --existing, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\main\resources]
+[14Aug.2025 21:07:00.428] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[14Aug.2025 21:07:00.429] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14Aug.2025 21:07:00.536] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[14Aug.2025 21:07:00.643] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rkaes/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[14Aug.2025 21:07:01.637] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Aug.2025 21:07:02.522] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rkaes\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, wegetthere, --all, --output, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\generated\resources, --existing, C:\Users\rkaes\Documents\Mymods\mods\seb.draws.things-puzzle\src\main\resources]
+[14Aug.2025 21:07:08.038] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[14Aug.2025 21:07:08.038] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[14Aug.2025 21:07:08.067] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[14Aug.2025 21:07:08.675] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [wegetthere]
+[14Aug.2025 21:07:08.752] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rkaes/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[14Aug.2025 21:07:08.753] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rkaes/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[14Aug.2025 21:07:08.876] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[14Aug.2025 21:07:09.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 231 ms
+[14Aug.2025 21:07:09.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[14Aug.2025 21:07:09.135] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 26 ms
+[14Aug.2025 21:07:09.135] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id wegetthere
+[14Aug.2025 21:07:09.150] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id wegetthere finished after 13 ms
+[14Aug.2025 21:07:09.150] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id wegetthere
+[14Aug.2025 21:07:09.152] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id wegetthere finished after 1 ms
+[14Aug.2025 21:07:09.152] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: wegetthere
+[14Aug.2025 21:07:09.158] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: wegetthere finished after 5 ms
+[14Aug.2025 21:07:09.158] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: wegetthere
+[14Aug.2025 21:07:09.260] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: wegetthere finished after 102 ms
+[14Aug.2025 21:07:09.260] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 385 ms
+[14Aug.2025 21:07:09.271] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 166, old count: 163, new count: 167, removed stale: 0, written: 3

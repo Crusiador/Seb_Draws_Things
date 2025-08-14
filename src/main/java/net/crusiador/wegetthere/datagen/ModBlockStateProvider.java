@@ -51,6 +51,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SEBONITE_BLOCK);
         blockWithItem(ModBlocks.SEB_LUCKY_BLOCK);
 
+        blockWithItem(ModBlocks.SOIL);
+
 
     }
 

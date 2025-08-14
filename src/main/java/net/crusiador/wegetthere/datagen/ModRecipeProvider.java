@@ -21,8 +21,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-        List<ItemLike> ALEXANDRITE_SMELTABLES = List.of(ModItems.RAW_SEBONITE.get(),
+        List<ItemLike> SEB_SMELTABLES = List.of(ModItems.RAW_SEBONITE.get(),
                 ModBlocks.SEBONITE_ORE.get(), ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+
+        List<ItemLike> SEB_SOIL = List.of(ModBlocks.SOIL.get());
+        List<ItemLike> SEB_SOILER = List.of(ModItems.CRISPY_SOIL.get());
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SEBONITE_BLOCK.get())
                 .pattern("AAA")
@@ -44,8 +47,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
 
-        oreSmelting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,200,"sebonite");
-        oreBlasting(pRecipeOutput, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,100,"sebonite");
+        oreSmelting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,200,"sebonite");
+        oreBlasting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,100,"sebonite");
+
+        oreSmelting(pRecipeOutput, SEB_SOIL, RecipeCategory.MISC, ModItems.CRISPY_SOIL.get(),0.25f,200,"crispy_soil");
+
+        oreSmelting(pRecipeOutput, SEB_SOILER, RecipeCategory.MISC, ModItems.BURNED_SOIL.get(),0.25f,200,"burned_soil");
     }
 
 

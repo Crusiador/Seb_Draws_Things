@@ -1,4 +1,4 @@
-// 1.21	2025-08-13T23:32:49.2197426	Block States: wegetthere
+// 1.21	2025-08-14T20:14:09.5444372	Block States: wegetthere
 e35aa03e6a7d90dbe4dd6e785ed9be9c673d4d88 assets/wegetthere/blockstates/cow.json
 3da0807ff84a93ae48ec7a958c835fefbcfdfbf4 assets/wegetthere/blockstates/puy.json
 e25e19446de861618fc757a79e17b2dd1f281dfc assets/wegetthere/blockstates/py.json
@@ -22,6 +22,7 @@ e5ffd5141b382e0f5ba38f0b983c79e330f95dc5 assets/wegetthere/blockstates/shrek.jso
 dc2c4994653f528e773cee4e021fc0da2d69fcd4 assets/wegetthere/blockstates/sm.json
 9b4488335de28a29acc21f7304e58c0ff7f26cbe assets/wegetthere/blockstates/sn.json
 1b3d3afa3e1f1c3e16f6560fc786b2882fd9546c assets/wegetthere/blockstates/so.json
+6a99768356ad3168516eadc75e77baf6c72c98ce assets/wegetthere/blockstates/soil.json
 23a32b52479408b5daf562bd716b59f4dd6f9288 assets/wegetthere/blockstates/sp.json
 27880b3a51d25a45a9869c321e02b5f1c403dfd3 assets/wegetthere/blockstates/sq.json
 aedd4d30a696035004685143083fbc35da7a62b5 assets/wegetthere/blockstates/sr.json
@@ -55,6 +56,7 @@ baae4f4b9dd5fe2e505472a65188774f373405d3 assets/wegetthere/models/block/sk.json
 29ede4b25d48d469e1914ab0f680bfb1af75a43f assets/wegetthere/models/block/sm.json
 2672e76677b54b36a36596dedfa51121ea30d2b8 assets/wegetthere/models/block/sn.json
 0a715649464bd9d1ef41b7d180e375b5b5800f04 assets/wegetthere/models/block/so.json
+c4e68c30ea96c4350f75f3580a96ec555e316c42 assets/wegetthere/models/block/soil.json
 e8b5d1368fb03b0fd2a106d3fff3438aaaed744d assets/wegetthere/models/block/sp.json
 6e5e5ac61466618608783c6fc5f114d8d08aeb4f assets/wegetthere/models/block/sq.json
 2eb1738135cef54c226b2cbf5a2dba1640d75194 assets/wegetthere/models/block/sr.json
@@ -88,6 +90,7 @@ b87bdeaca7d1280257b6a80b59150055e0d68b2e assets/wegetthere/models/item/sf.json
 6c73ed3420bd4c6c8bceaab0b2b6a2fb60e5a5ef assets/wegetthere/models/item/sm.json
 394ca949ad26828053ef1931b4f66b02d91d780d assets/wegetthere/models/item/sn.json
 20fd21b1b11879512d55d9804565f22c71edbfaf assets/wegetthere/models/item/so.json
+747c317026d65a25e72f57fecad6bfea7f521938 assets/wegetthere/models/item/soil.json
 e0da65ee2c98f9e5340b8d34ca390c51f0bb2dcc assets/wegetthere/models/item/sp.json
 14b0236b67d2de353910cd7341d01d0fa0845651 assets/wegetthere/models/item/sq.json
 60e4ff433288b2337be62ea40a7b0ba3d42688c5 assets/wegetthere/models/item/sr.json

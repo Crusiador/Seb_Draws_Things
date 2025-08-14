@@ -5,6 +5,7 @@ import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -115,6 +116,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SEBONITE_BLOCK = registerBlock("sebonite_block",
             ()-> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SOIL = registerBlock("soil",
+            ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.ROOTED_DIRT)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

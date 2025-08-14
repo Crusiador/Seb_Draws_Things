@@ -60,6 +60,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SEBONITE_BLOCK.get());
         dropSelf(ModBlocks.SEB_LUCKY_BLOCK.get());
 
+        dropSelf(ModBlocks.SOIL.get());
+
         this.add(ModBlocks.SEBONITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.SEBONITE_ORE.get(), ModItems.RAW_SEBONITE.get(), 1, 3));
 

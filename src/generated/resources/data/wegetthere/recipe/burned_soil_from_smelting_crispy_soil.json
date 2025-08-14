@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "burned_soil",
+  "ingredient": {
+    "item": "wegetthere:crispy_soil"
+  },
+  "result": {
+    "id": "wegetthere:burned_soil"
+  }
+}

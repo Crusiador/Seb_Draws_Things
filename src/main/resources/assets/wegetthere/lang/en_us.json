@@ -27,6 +27,7 @@
 
   "creativetab.wegetthere.seb.blocks": "Seb",
 
+  "block.wegetthere.soil": "Soil",
 
   "block.wegetthere.shrek": "Shrek",
   "block.wegetthere.py": "Pufferfish",
@@ -38,5 +39,9 @@
   "block.wegetthere.sebonite_block": "Sebonite Block",
 
   "item.wegetthere.raw_sebonite": "Raw Sebonite",
-  "item.wegetthere.sebonite": "Sebonite"
+  "item.wegetthere.sebonite": "Sebonite",
+
+  "item.wegetthere.crispy_soil": "Crispy Soil",
+  "item.wegetthere.burned_soil": "Burned Soil"
+
 }

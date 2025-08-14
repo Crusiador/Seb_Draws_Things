@@ -1,4 +1,4 @@
-// 1.21	2025-08-13T23:32:49.2234021	Loot Tables
+// 1.21	2025-08-14T20:14:09.5464467	Loot Tables
 c626982720659e139955ef979445505508d5df29 data/wegetthere/loot_table/blocks/cow.json
 7d4dbd520fbed898a86cce901cf071549a914e4c data/wegetthere/loot_table/blocks/puy.json
 ffc2e9117b6655adfa9f6cd3ff1fd085c3c927c6 data/wegetthere/loot_table/blocks/py.json
@@ -22,6 +22,7 @@ e796b630e941dcde85d0a06c2a592ebe5c9171d0 data/wegetthere/loot_table/blocks/sl.js
 16c06495e74119b713e3941f8df36f5d49a0370d data/wegetthere/loot_table/blocks/sm.json
 c7ffb3cb4746be4f316b1cc62e6b75c6b71c76d1 data/wegetthere/loot_table/blocks/sn.json
 98b0cbe3af6ffe05b2910a2e11a800820a239fee data/wegetthere/loot_table/blocks/so.json
+550f4a59c36ef3730fcfae51cba9e72f8bede0b6 data/wegetthere/loot_table/blocks/soil.json
 8c572e7ac6dd6690ee798c29df7dfa222a68bd43 data/wegetthere/loot_table/blocks/sp.json
 e141dd7f3982f1932ed81041c6e7e9bfd617e1bb data/wegetthere/loot_table/blocks/sq.json
 4f321f6081f39623452698103b4d465a822d2597 data/wegetthere/loot_table/blocks/sr.json
