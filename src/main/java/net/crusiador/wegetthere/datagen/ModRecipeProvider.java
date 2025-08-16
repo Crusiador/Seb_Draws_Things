@@ -42,6 +42,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.NETHERITE_INGOT)
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND)).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COW.get())
+                        .pattern("AAA")
+                        .pattern("AAA")
+                        .pattern("AAA")
+                        .define('A', Items.MILK_BUCKET)
+                        .unlockedBy(getHasName(ModBlocks.COW.get()), has(ModBlocks.COW.get().asItem()));
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE.get(),9)
                 .requires(ModBlocks.SEBONITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);

@@ -1,3 +1,6 @@
 {
-  "parent": "wegetthere:block/seb_fence"
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "wegetthere:block/sebonite_block"
+  }
 }

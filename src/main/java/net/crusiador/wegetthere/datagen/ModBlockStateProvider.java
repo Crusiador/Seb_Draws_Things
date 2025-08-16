@@ -73,16 +73,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.SEB_STAIRS);
         blockItem(ModBlocks.SEB_SLAB);
         blockItem(ModBlocks.SEB_PRESSURE_PLATE);
-        blockItem(ModBlocks.SEB_FENCE);
+        blockItem(ModBlocks.SEB_FENCE_GATE);
         blockItem(ModBlocks.SEB_TRAPDOOR, "_bottom");
-
-
     }
 
-    private void blockWithItem(RegistryObject<Block>blockRegistryObject) {
+    private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
-
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject) {
         simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("wegetthere:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
@@ -92,5 +89,4 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("wegetthere:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
     }
-
 }

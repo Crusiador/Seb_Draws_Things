@@ -1,4 +1,4 @@
-// 1.21	2025-08-16T16:00:27.3236035	Block States: wegetthere
+// 1.21	2025-08-16T17:36:15.4590599	Block States: wegetthere
 e35aa03e6a7d90dbe4dd6e785ed9be9c673d4d88 assets/wegetthere/blockstates/cow.json
 3da0807ff84a93ae48ec7a958c835fefbcfdfbf4 assets/wegetthere/blockstates/puy.json
 e25e19446de861618fc757a79e17b2dd1f281dfc assets/wegetthere/blockstates/py.json
@@ -119,7 +119,7 @@ fc0a0f14e5eabff20603e50c7df8a9c0230f314f assets/wegetthere/models/item/se.json
 e2931ad3f90eb41a4da0b813a9c5cad5e01e66af assets/wegetthere/models/item/sebonite_block.json
 35329b8718bd6e1ae1ec18449a59e0a1041dfdb6 assets/wegetthere/models/item/sebonite_deepslate_ore.json
 fc683ecfc7f9145eaa515c9e43df68839f864555 assets/wegetthere/models/item/sebonite_ore.json
-41b59eccd77dbff1a09aa773df0d06943faa572c assets/wegetthere/models/item/seb_fence.json
+3e7ad3557713dd644c8658342ba38221222adca8 assets/wegetthere/models/item/seb_fence_gate.json
 4cc4b0b56e942655148be71db565a08b7b6d193a assets/wegetthere/models/item/seb_lucky_block.json
 903099713ff220b2a4138a1b96bbf5ee199eeb71 assets/wegetthere/models/item/seb_pressure_plate.json
 9ceacc961ba2c8756fe8c89699e43e68a1f48c2f assets/wegetthere/models/item/seb_slab.json
