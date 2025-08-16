@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "alexandrite",
+  "ingredients": [
+    {
+      "item": "wegetthere:sebonite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "wegetthere:seb_button"
+  }
+}

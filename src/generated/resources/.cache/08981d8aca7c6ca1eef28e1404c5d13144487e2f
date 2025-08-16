@@ -1,4 +1,7 @@
-// 1.21	2025-08-13T23:32:49.2255832	Tags for minecraft:block mod id wegetthere
-fdee5d11e8c3bf3718476a3b5128c7a5b0f65af8 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21	2025-08-16T16:21:39.9417006	Tags for minecraft:block mod id wegetthere
+10be995f593862edc894f7e0c8dacad1e076d190 data/minecraft/tags/block/fences.json
+8b212628820642a9b5084afc419b8ed7a91f3b79 data/minecraft/tags/block/fence_gates.json
+765985fac88ffcca4ef2cfca92092218fae2dab5 data/minecraft/tags/block/mineable/pickaxe.json
 22cf0dc6bed4a3160222e518c42c034ffe23e720 data/minecraft/tags/block/needs_diamond_tool.json
-0a73f54f6e9455d60aff9a041aed384100dae566 data/minecraft/tags/block/needs_iron_tool.json
+e199cedc20f38d94e512019374f5779f8dd19c31 data/minecraft/tags/block/needs_iron_tool.json
+e182bfaf1af6dcd52bf28ee4995dd436acfff9e0 data/minecraft/tags/block/walls.json

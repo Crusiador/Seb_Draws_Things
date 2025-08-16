@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wegetthere:block/seb_slab"
+    },
+    "type=double": {
+      "model": "wegetthere:block/sebonite_block"
+    },
+    "type=top": {
+      "model": "wegetthere:block/seb_slab_top"
+    }
+  }
+}

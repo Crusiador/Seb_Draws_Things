@@ -44,6 +44,19 @@
   "item.wegetthere.sebonite": "Sebonite",
 
   "item.wegetthere.crispy_soil": "Crispy Soil",
-  "item.wegetthere.burned_soil": "Burned Soil"
+  "item.wegetthere.burned_soil": "Burned Soil",
 
+
+  "block.wegetthere.seb_stairs": "Seb Stairs",
+  "block.wegetthere.seb_slab": "Seb Slab",
+
+  "block.wegetthere.seb_button": "Seb Button",
+  "block.wegetthere.seb_pressure_plate": "Seb Pressure Plate",
+
+  "block.wegetthere.seb_fence": "Seb Fence",
+  "block.wegetthere.seb_fence_gate": "Seb Fence Gate",
+  "block.wegetthere.seb_wall": "Seb Wall",
+
+  "block.wegetthere.seb_door": "Seb Door",
+  "block.wegetthere.seb_trapdoor": "Seb Trapdoor"
 }

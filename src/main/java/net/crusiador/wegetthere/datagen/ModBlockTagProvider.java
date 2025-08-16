@@ -20,13 +20,46 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SEBONITE_ORE.get())
-                .add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+                .add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get())
+
+                .add(ModBlocks.SEB_STAIRS.get())
+                .add(ModBlocks.SEB_SLAB.get())
+
+                .add(ModBlocks.SEB_PRESSURE_PLATE.get())
+                .add(ModBlocks.SEB_BUTTON.get())
+
+                .add(ModBlocks.SEB_FENCE.get())
+                .add(ModBlocks.SEB_FENCE_GATE.get())
+                .add(ModBlocks.SEB_WALL.get())
+
+                .add(ModBlocks.SEB_DOOR.get())
+                .add(ModBlocks.SEB_TRAPDOOR.get());
+
+
 
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SEBONITE_ORE.get());
+                .add(ModBlocks.SEBONITE_ORE.get())
+
+                .add(ModBlocks.SEB_STAIRS.get())
+                .add(ModBlocks.SEB_SLAB.get())
+
+                .add(ModBlocks.SEB_PRESSURE_PLATE.get())
+                .add(ModBlocks.SEB_BUTTON.get())
+
+                .add(ModBlocks.SEB_FENCE.get())
+                .add(ModBlocks.SEB_FENCE_GATE.get())
+                .add(ModBlocks.SEB_WALL.get())
+
+                .add(ModBlocks.SEB_DOOR.get())
+                .add(ModBlocks.SEB_TRAPDOOR.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+
+
+        tag(BlockTags.FENCES).add(ModBlocks.SEB_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.SEB_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.SEB_WALL.get());
     }
 }

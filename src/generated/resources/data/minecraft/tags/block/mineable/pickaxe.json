@@ -1,6 +1,15 @@
 {
   "values": [
     "wegetthere:sebonite_ore",
-    "wegetthere:sebonite_deepslate_ore"
+    "wegetthere:sebonite_deepslate_ore",
+    "wegetthere:seb_stairs",
+    "wegetthere:seb_slab",
+    "wegetthere:seb_pressure_plate",
+    "wegetthere:seb_button",
+    "wegetthere:seb_fence",
+    "wegetthere:seb_fence_gate",
+    "wegetthere:seb_wall",
+    "wegetthere:seb_door",
+    "wegetthere:seb_trapdoor"
   ]
 }

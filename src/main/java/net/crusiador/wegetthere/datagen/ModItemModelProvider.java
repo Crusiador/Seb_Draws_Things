@@ -1,10 +1,16 @@
 package net.crusiador.wegetthere.datagen;
 
+import net.crusiador.wegetthere.block.ModBlocks;
 import net.crusiador.wegetthere.item.ModItems;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
@@ -20,6 +26,33 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BURNED_SOIL.get());
 
 
+        fenceItem(ModBlocks.SEB_FENCE, ModBlocks.SEBONITE_BLOCK);
+        wallItem(ModBlocks.SEB_WALL, ModBlocks.SEBONITE_BLOCK);
+        buttonItem(ModBlocks.SEB_BUTTON, ModBlocks.SEBONITE_BLOCK);
 
+        simpleBlockItem(ModBlocks.SEB_DOOR);
+    }
+    public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(wegetthere.MOD_ID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void fenceItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(wegetthere.MOD_ID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void wallItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  ResourceLocation.fromNamespaceAndPath(wegetthere.MOD_ID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItem(RegistryObject<? extends Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(wegetthere.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

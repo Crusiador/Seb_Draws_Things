@@ -61,6 +61,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CRISPY_SOIL.get());
                         output.accept(ModItems.BURNED_SOIL.get());
 
+                        output.accept(ModBlocks.SEB_STAIRS.get());
+                        output.accept(ModBlocks.SEB_SLAB.get());
+
+                        output.accept(ModBlocks.SEB_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.SEB_BUTTON.get());
+
+                        output.accept(ModBlocks.SEB_FENCE.get());
+                        output.accept(ModBlocks.SEB_FENCE_GATE.get());
+                        output.accept(ModBlocks.SEB_WALL.get());
+
+                        output.accept(ModBlocks.SEB_DOOR.get());
+                        output.accept(ModBlocks.SEB_TRAPDOOR.get());
+
                     }).build());
 
 

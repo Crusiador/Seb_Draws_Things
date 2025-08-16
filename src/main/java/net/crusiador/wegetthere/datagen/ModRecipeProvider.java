@@ -53,6 +53,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, SEB_SOIL, RecipeCategory.MISC, ModItems.CRISPY_SOIL.get(),0.25f,200,"crispy_soil");
 
         oreSmelting(pRecipeOutput, SEB_SOILER, RecipeCategory.MISC, ModItems.BURNED_SOIL.get(),0.25f,200,"burned_soil");
+
+        stairBuilder(ModBlocks.SEB_STAIRS.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_SLAB.get(), ModItems.SEBONITE.get());
+
+        buttonBuilder(ModBlocks.SEB_BUTTON.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.SEB_PRESSURE_PLATE.get(), ModItems.SEBONITE.get());
+
+        fenceBuilder(ModBlocks.SEB_FENCE.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.SEB_FENCE_GATE.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_WALL.get(), ModItems.SEBONITE.get());
+
+        doorBuilder(ModBlocks.SEB_DOOR.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.SEB_TRAPDOOR.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+
+
+
+
     }
 
 

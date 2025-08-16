@@ -5,9 +5,10 @@ import net.crusiador.wegetthere.item.ModItems;
 import net.crusiador.wegetthere.wegetthere;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -123,6 +124,38 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOIL = registerBlock("soil",
             ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.ROOTED_DIRT)));
+
+
+
+    public static final RegistryObject<StairBlock> SEB_STAIRS = registerBlock("seb_stairs",
+            ()-> new StairBlock(ModBlocks.SEBONITE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<SlabBlock> SEB_SLAB = registerBlock("seb_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> SEB_PRESSURE_PLATE = registerBlock("seb_pressure_plate",
+            ()-> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> SEB_BUTTON = registerBlock("seb_button",
+            ()-> new ButtonBlock(BlockSetType.IRON,10, BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> SEB_FENCE = registerBlock("seb_fence",
+            ()-> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<FenceGateBlock> SEB_FENCE_GATE = registerBlock("seb_fence_gate",
+            ()-> new FenceGateBlock(WoodType.OAK,BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> SEB_WALL = registerBlock("seb_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<DoorBlock> SEB_DOOR = registerBlock("seb_door",
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+    public static final RegistryObject<TrapDoorBlock> SEB_TRAPDOOR = registerBlock("seb_trapdoor",
+            ()-> new TrapDoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().noOcclusion()));
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

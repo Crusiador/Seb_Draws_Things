@@ -78,6 +78,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SOIL.get());
         dropSelf(ModBlocks.SEBFORMER.get());
 
+
+        dropSelf(ModBlocks.SEB_STAIRS.get());
+        this.add(ModBlocks.SEB_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SEB_SLAB.get()));
+
+        dropSelf(ModBlocks.SEB_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SEB_BUTTON.get());
+        dropSelf(ModBlocks.SEB_FENCE.get());
+        dropSelf(ModBlocks.SEB_FENCE_GATE.get());
+        dropSelf(ModBlocks.SEB_WALL.get());
+        dropSelf(ModBlocks.SEB_TRAPDOOR.get());
+
+        this.add(ModBlocks.SEB_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SEB_DOOR.get()));
+
         this.add(ModBlocks.SEBONITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.SEBONITE_ORE.get(), ModItems.RAW_SEBONITE.get(), 1, 3));
 

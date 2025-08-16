@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wegetthere:block/sebonite_block",
+    "side": "wegetthere:block/sebonite_block",
+    "top": "wegetthere:block/sebonite_block"
+  }
+}
