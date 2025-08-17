@@ -36,7 +36,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SEB_SWORD);
         handheldItem(ModItems.SEB_PICKAXE);
         handheldItem(ModItems.SEB_SHOVEL);
-        handheldItem(ModItems.SEB_AXE);
         handheldItem(ModItems.SEB_HOE);
     }
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

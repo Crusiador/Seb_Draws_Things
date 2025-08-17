@@ -1,6 +1,6 @@
 {
   "remove": [
-    "#wegetthere:needs_alexandrite_tool"
+    "#wegetthere:needs_seb_tool"
   ],
   "values": [
     "#minecraft:incorrect_for_diamond_tool"
