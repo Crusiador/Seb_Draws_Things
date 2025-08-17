@@ -10,6 +10,8 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_SEB_TOOL = createTag("needs_seb_tool");
+        public static final TagKey<Block> INCORRECT_FOR_SEB_TOOL = createTag("incorrect_for_seb_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(wegetthere.MOD_ID, name));

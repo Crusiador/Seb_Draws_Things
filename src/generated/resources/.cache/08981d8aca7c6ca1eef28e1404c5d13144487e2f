@@ -1,7 +1,9 @@
-// 1.21	2025-08-16T16:21:39.9417006	Tags for minecraft:block mod id wegetthere
+// 1.21	2025-08-17T01:12:47.3220186	Tags for minecraft:block mod id wegetthere
 10be995f593862edc894f7e0c8dacad1e076d190 data/minecraft/tags/block/fences.json
 8b212628820642a9b5084afc419b8ed7a91f3b79 data/minecraft/tags/block/fence_gates.json
 765985fac88ffcca4ef2cfca92092218fae2dab5 data/minecraft/tags/block/mineable/pickaxe.json
-22cf0dc6bed4a3160222e518c42c034ffe23e720 data/minecraft/tags/block/needs_diamond_tool.json
-e199cedc20f38d94e512019374f5779f8dd19c31 data/minecraft/tags/block/needs_iron_tool.json
+a98cc376de2bf36fa4bf8dcb8eb50b23563e52ac data/minecraft/tags/block/needs_diamond_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/needs_iron_tool.json
 e182bfaf1af6dcd52bf28ee4995dd436acfff9e0 data/minecraft/tags/block/walls.json
+b34401e216b322b857fa3dde6eb44cdd766a448e data/wegetthere/tags/block/incorrect_for_alexandrite_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/wegetthere/tags/block/needs_alexandrite_tool.json

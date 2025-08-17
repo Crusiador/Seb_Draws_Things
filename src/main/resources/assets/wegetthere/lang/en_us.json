@@ -58,5 +58,11 @@
   "block.wegetthere.seb_wall": "Seb Wall",
 
   "block.wegetthere.seb_door": "Seb Door",
-  "block.wegetthere.seb_trapdoor": "Seb Trapdoor"
+  "block.wegetthere.seb_trapdoor": "Seb Trapdoor",
+
+  "item.wegetthere.seb_sword": "Seb Sword",
+  "item.wegetthere.seb_pickaxe": "Seb Pickaxe",
+  "item.wegetthere.seb_shovel": "Seb Shovel",
+  "item.wegetthere.seb_axe": "Seb Axe",
+  "item.wegetthere.seb_hoe": "Seb Hoe"
 }

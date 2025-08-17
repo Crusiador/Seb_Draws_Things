@@ -42,12 +42,45 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.NETHERITE_INGOT)
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND)).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COW.get())
-                        .pattern("AAA")
-                        .pattern("AAA")
-                        .pattern("AAA")
-                        .define('A', Items.MILK_BUCKET)
-                        .unlockedBy(getHasName(ModBlocks.COW.get()), has(ModBlocks.COW.get().asItem()));
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', ModItems.SEBONITE.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.SEBONITE.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.SEBONITE.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_AXE.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern(" B ")
+                .define('A', ModItems.SEBONITE.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_HOE.get())
+                .pattern(" AA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.SEBONITE.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE.get(),9)
                 .requires(ModBlocks.SEBONITE_BLOCK.get())

@@ -75,6 +75,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SEB_DOOR.get());
                         output.accept(ModBlocks.SEB_TRAPDOOR.get());
 
+                        output.accept(ModItems.SEB_SWORD.get());
+                        output.accept(ModItems.SEB_PICKAXE.get());
+                        output.accept(ModItems.SEB_SHOVEL.get());
+                        output.accept(ModItems.SEB_AXE.get());
+                        output.accept(ModItems.SEB_HOE.get());
+
                     }).build());
 
 
