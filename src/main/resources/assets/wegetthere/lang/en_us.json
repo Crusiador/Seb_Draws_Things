@@ -68,5 +68,16 @@
   "item.wegetthere.seb_pickaxe": "Seb Pickaxe",
   "item.wegetthere.seb_shovel": "Seb Shovel",
   "item.wegetthere.seb_axe": "Seb Axe",
-  "item.wegetthere.seb_hoe": "Seb Hoe"
+  "item.wegetthere.seb_hoe": "Seb Hoe",
+
+  "menu.returnToGame": "Back to Drawing",
+  "menu.returnToMenu": "Save squares and back to harvey",
+  "menu.shareToLan": "Open to SQUARES",
+  "gui.stats": "Sebstistics",
+  "gui.advancements": "Adsebments",
+  "known_server_link.feedback": "Feedback",
+  "menu.sendFeedback": "Give Sebment",
+  "menu.reportBugs": "Report Seb",
+  "menu.options": "Sebs Options",
+  "menu.game": "Seb Menu"
 }
