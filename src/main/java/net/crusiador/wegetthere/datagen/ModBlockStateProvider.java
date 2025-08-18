@@ -57,6 +57,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.SEBFORMER);
 
+        blockWithItem(ModBlocks.SEB_LOG);
+        blockWithItem(ModBlocks.SEB_PLANK);
+
+
         stairsBlock(ModBlocks.SEB_STAIRS.get(), blockTexture(ModBlocks.SEBONITE_BLOCK.get()));
         slabBlock(ModBlocks.SEB_SLAB.get(), blockTexture(ModBlocks.SEBONITE_BLOCK.get()), blockTexture(ModBlocks.SEBONITE_BLOCK.get()));
 

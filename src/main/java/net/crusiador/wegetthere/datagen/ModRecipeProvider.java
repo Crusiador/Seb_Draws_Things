@@ -82,6 +82,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.STICK)
                 .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.SEB_PLANK.get(),4)
+                .requires(ModBlocks.SEB_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.SEB_LOG.get()), has(ModBlocks.SEB_LOG.get())).save(pRecipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE.get(),9)
                 .requires(ModBlocks.SEBONITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);

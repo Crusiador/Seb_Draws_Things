@@ -81,6 +81,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SEB_AXE.get());
                         output.accept(ModItems.SEB_HOE.get());
 
+                        output.accept(ModBlocks.SEB_LOG.get());
+                        output.accept(ModBlocks.SEB_PLANK.get());
+
+
                     }).build());
 
 

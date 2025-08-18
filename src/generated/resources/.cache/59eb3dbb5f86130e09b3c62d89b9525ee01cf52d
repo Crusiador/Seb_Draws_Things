@@ -1,4 +1,4 @@
-// 1.21	2025-08-16T16:00:27.3256265	Loot Tables
+// 1.21	2025-08-18T10:25:32.7260506	Loot Tables
 c626982720659e139955ef979445505508d5df29 data/wegetthere/loot_table/blocks/cow.json
 7d4dbd520fbed898a86cce901cf071549a914e4c data/wegetthere/loot_table/blocks/puy.json
 ffc2e9117b6655adfa9f6cd3ff1fd085c3c927c6 data/wegetthere/loot_table/blocks/py.json
@@ -15,7 +15,9 @@ ba891b8172a96399280c4644ec7855a6f21d3842 data/wegetthere/loot_table/blocks/sebon
 bb88779886e2e9a384ac072b81c2c314d9e5f041 data/wegetthere/loot_table/blocks/seb_door.json
 68730a6ca6e5ddc32c29f42c0c3f0b6f4c161e19 data/wegetthere/loot_table/blocks/seb_fence.json
 c1b4d1895a5674ec30184ef048a623c1699c6bff data/wegetthere/loot_table/blocks/seb_fence_gate.json
+a1e8c347374d989b793fa5313972c12e0b34932a data/wegetthere/loot_table/blocks/seb_log.json
 caabcba5cc2d67b64959de6be3fec0b4ab7c58e6 data/wegetthere/loot_table/blocks/seb_lucky_block.json
+606e22464a73e71b9f233474124d192ec78ba0b1 data/wegetthere/loot_table/blocks/seb_plank.json
 812521120f8fc38dc40bf11968ec5469a9b6c982 data/wegetthere/loot_table/blocks/seb_pressure_plate.json
 9aceaa55a4c39a3c30d20680d466dc49ed88b885 data/wegetthere/loot_table/blocks/seb_slab.json
 41ec3adb54b081213a142db66d614ecdccb5db0f data/wegetthere/loot_table/blocks/seb_stairs.json

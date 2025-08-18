@@ -125,6 +125,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> SOIL = registerBlock("soil",
             ()-> new Block(BlockBehaviour.Properties.of().strength(1f).sound(SoundType.ROOTED_DIRT)));
 
+    public static final RegistryObject<Block> SEB_LOG = registerBlock("seb_log",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.CHERRY_WOOD)));
+    public static final RegistryObject<Block> SEB_PLANK = registerBlock("seb_plank",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.CHERRY_WOOD)));
+
 
 
     public static final RegistryObject<StairBlock> SEB_STAIRS = registerBlock("seb_stairs",
@@ -134,10 +139,10 @@ public class ModBlocks {
             ()-> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<PressurePlateBlock> SEB_PRESSURE_PLATE = registerBlock("seb_pressure_plate",
-            ()-> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
+            ()-> new PressurePlateBlock(BlockSetType.ACACIA, BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops()));
     public static final RegistryObject<ButtonBlock> SEB_BUTTON = registerBlock("seb_button",
-            ()-> new ButtonBlock(BlockSetType.IRON,10, BlockBehaviour.Properties.of().strength(3f)
+            ()-> new ButtonBlock(BlockSetType.ACACIA,10, BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops().noCollission()));
 
     public static final RegistryObject<FenceBlock> SEB_FENCE = registerBlock("seb_fence",
@@ -149,9 +154,9 @@ public class ModBlocks {
             ()-> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<DoorBlock> SEB_DOOR = registerBlock("seb_door",
-            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+            () -> new DoorBlock(BlockSetType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
     public static final RegistryObject<TrapDoorBlock> SEB_TRAPDOOR = registerBlock("seb_trapdoor",
-            ()-> new TrapDoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(3f)
+            ()-> new TrapDoorBlock(BlockSetType.ACACIA,BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops().noOcclusion()));
 
 

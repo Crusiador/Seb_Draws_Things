@@ -33,7 +33,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.SEB_DOOR);
 
-        handheldItem(ModItems.SEB_SWORD);
         handheldItem(ModItems.SEB_PICKAXE);
         handheldItem(ModItems.SEB_SHOVEL);
         handheldItem(ModItems.SEB_HOE);

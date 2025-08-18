@@ -1,4 +1,4 @@
-// 1.21	2025-08-17T01:12:47.3209713	Recipes
+// 1.21	2025-08-18T10:29:57.3022625	Recipes
 0d9133fcd30dc29aa9c37b0ca08306da86e39af2 data/wegetthere/advancement/recipes/building_blocks/seb_slab.json
 6d3ddb10725e10baba90721655f8d3f52e1845e2 data/wegetthere/advancement/recipes/building_blocks/seb_stairs.json
 a9001d4d14f3f0e15867e959f152a681cb7c1275 data/wegetthere/advancement/recipes/building_blocks/seb_wall.json
@@ -17,6 +17,7 @@ fd801f8cb40ffcd3e0a414856714f1751e3624d8 data/wegetthere/advancement/recipes/mis
 c04e1caddd23e84466cf4cbcd94c0c433564edff data/wegetthere/advancement/recipes/misc/seb_axe.json
 4682912106dd02b45403ca00136aca1a123b2c2e data/wegetthere/advancement/recipes/misc/seb_hoe.json
 8c81b5d0bd3a610da5627f0ac856ccbe6bf5eaa1 data/wegetthere/advancement/recipes/misc/seb_pickaxe.json
+942b0cd51a2de3d5a7a7a3caafc2c255732877e9 data/wegetthere/advancement/recipes/misc/seb_plank.json
 38c567ce846e040d542b89ecce5306ceaa01b645 data/wegetthere/advancement/recipes/misc/seb_shovel.json
 13da82a28406261f65de12c51c5be44e0269a00c data/wegetthere/advancement/recipes/misc/seb_sword.json
 baf34b840ef4a3a448348b53b5067824a6df1bef data/wegetthere/advancement/recipes/redstone/seb_button.json
@@ -42,6 +43,7 @@ dfb6d19d6bd52a7a2194c29a960160da3a3cbb70 data/wegetthere/recipe/seb_button.json
 817c57f94e8828f0cfa82af7e886720e1238c87b data/wegetthere/recipe/seb_fence_gate.json
 07e5926144da8bce4284c65add6c2cecb3145f02 data/wegetthere/recipe/seb_hoe.json
 70bd597be5f55e7a543ff097abcebbcdd55735c8 data/wegetthere/recipe/seb_pickaxe.json
+8751f2e6f372f475dd1480a8c536915ab55eefb1 data/wegetthere/recipe/seb_plank.json
 94d36e29d48ef8e42b440b8e8f7923e8b2680663 data/wegetthere/recipe/seb_pressure_plate.json
 71c11216effe07f6eb0ffcd5d5490d125a8f0019 data/wegetthere/recipe/seb_shovel.json
 8270d747e37c0084ce3f39f53b8f2c997307532e data/wegetthere/recipe/seb_slab.json

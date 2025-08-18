@@ -2,9 +2,9 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "wegetthere:item/seb_axe",
-		"2": "wegetthere:item/sebonite",
-		"particle": "wegetthere:item/seb_axe"
+		"0": "wegetthere:item/texture_helpers/seb_axe_texture_pallet",
+		"2": "wegetthere:item/texture_helpers/seb_texture_helper",
+		"particle": "wegetthere:item/texture_helpers/seb_axe_texture_pallet"
 	},
 	"elements": [
 		{
