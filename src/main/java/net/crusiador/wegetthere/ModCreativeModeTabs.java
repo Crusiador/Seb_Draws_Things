@@ -14,9 +14,9 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, wegetthere.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> SEBS_ITEMS_TABS = CREATIVE_MODE_TABS.register("seb.draws.things",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.S13.get()))
-                    .title(Component.translatable("creativetab.wegetthere.seb.blocks"))
+    public static final RegistryObject<CreativeModeTab> SEB_ART_TABS = CREATIVE_MODE_TABS.register("seb_art",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.S1.get()))
+                    .title(Component.nullToEmpty("Seb Art"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.S1.get());
                         output.accept(ModBlocks.S2.get());
@@ -47,10 +47,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PY.get());
                         output.accept(ModBlocks.COW.get());
                         output.accept(ModBlocks.PUY.get());
+
+
+
+                    }).build());
+
+
+    public static final RegistryObject<CreativeModeTab> SEB_BLOCKS_TABS = CREATIVE_MODE_TABS.register("seb_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SEBONITE_BLOCK.get()))
+                    .title(Component.nullToEmpty("Seb Blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SEBFORMER.get());
-
                         output.accept(ModBlocks.SEB_LUCKY_BLOCK.get());
-
 
                         output.accept(ModBlocks.SEBONITE_ORE.get());
                         output.accept(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
@@ -59,8 +67,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SEBONITE.get());
 
                         output.accept(ModBlocks.SOIL.get());
-                        output.accept(ModItems.CRISPY_SOIL.get());
-                        output.accept(ModItems.BURNED_SOIL.get());
 
                         output.accept(ModBlocks.SEB_STAIRS.get());
                         output.accept(ModBlocks.SEB_SLAB.get());
@@ -75,14 +81,24 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SEB_DOOR.get());
                         output.accept(ModBlocks.SEB_TRAPDOOR.get());
 
+                        output.accept(ModBlocks.SEB_LOG.get());
+                        output.accept(ModBlocks.SEB_PLANK.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> SEBS_ITEMS_TABS = CREATIVE_MODE_TABS.register("seb_items",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SEB_SWORD.get()))
+                    .title(Component.nullToEmpty("Seb Items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(ModItems.SEB_SWORD.get());
                         output.accept(ModItems.SEB_PICKAXE.get());
                         output.accept(ModItems.SEB_SHOVEL.get());
                         output.accept(ModItems.SEB_AXE.get());
                         output.accept(ModItems.SEB_HOE.get());
 
-                        output.accept(ModBlocks.SEB_LOG.get());
-                        output.accept(ModBlocks.SEB_PLANK.get());
+                        output.accept(ModItems.CRISPY_SOIL.get());
+                        output.accept(ModItems.BURNED_SOIL.get());
 
 
                     }).build());
