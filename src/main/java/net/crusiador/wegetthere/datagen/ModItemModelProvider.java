@@ -32,9 +32,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonItem(ModBlocks.SEB_BUTTON, ModBlocks.SEBONITE_BLOCK);
 
         simpleBlockItem(ModBlocks.SEB_DOOR);
-
-        handheldItem(ModItems.SEB_PICKAXE);
-        handheldItem(ModItems.SEB_SHOVEL);
         handheldItem(ModItems.SEB_HOE);
     }
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
