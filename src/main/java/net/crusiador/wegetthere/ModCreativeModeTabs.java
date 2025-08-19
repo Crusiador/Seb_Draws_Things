@@ -61,7 +61,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SEB_LUCKY_BLOCK.get());
 
                         output.accept(ModBlocks.SEBONITE_ORE.get());
-                        output.accept(ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
                         output.accept(ModItems.RAW_SEBONITE.get());
                         output.accept(ModBlocks.SEBONITE_BLOCK.get());
                         output.accept(ModItems.SEBONITE.get());

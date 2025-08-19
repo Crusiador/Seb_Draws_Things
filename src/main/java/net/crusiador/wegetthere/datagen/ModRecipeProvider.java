@@ -22,7 +22,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
         List<ItemLike> SEB_SMELTABLES = List.of(ModItems.RAW_SEBONITE.get(),
-                ModBlocks.SEBONITE_ORE.get(), ModBlocks.SEBONITE_DEEPSLATE_ORE.get());
+                ModBlocks.SEBONITE_ORE.get());
 
         List<ItemLike> SEB_SOIL = List.of(ModBlocks.SOIL.get());
         List<ItemLike> SEB_SOILER = List.of(ModItems.CRISPY_SOIL.get());

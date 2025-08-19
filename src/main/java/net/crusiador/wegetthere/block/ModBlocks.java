@@ -110,9 +110,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> SEBONITE_ORE = registerBlock("sebonite_ore",
             ()-> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> SEBONITE_DEEPSLATE_ORE = registerBlock("sebonite_deepslate_ore",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
-
     public static final RegistryObject<Block> SEBFORMER = registerBlock("sebformer",
             ()-> new SebFormer(BlockBehaviour.Properties.of().strength(10f).requiresCorrectToolForDrops()));
 

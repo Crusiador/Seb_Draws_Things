@@ -84,8 +84,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.SEBONITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.SEBONITE_ORE.get(), ModItems.RAW_SEBONITE.get(), 1, 3));
 
-        this.add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.SEBONITE_DEEPSLATE_ORE.get(), ModItems.RAW_SEBONITE.get(), 2, 6));
 
 
 

@@ -1,4 +1,4 @@
-// 1.21	2025-08-18T10:25:32.7260506	Loot Tables
+// 1.21	2025-08-19T21:06:52.2913909	Loot Tables
 c626982720659e139955ef979445505508d5df29 data/wegetthere/loot_table/blocks/cow.json
 7d4dbd520fbed898a86cce901cf071549a914e4c data/wegetthere/loot_table/blocks/puy.json
 ffc2e9117b6655adfa9f6cd3ff1fd085c3c927c6 data/wegetthere/loot_table/blocks/py.json
@@ -9,7 +9,6 @@ ffc2e9117b6655adfa9f6cd3ff1fd085c3c927c6 data/wegetthere/loot_table/blocks/py.js
 35cb71bd484e4e1b54124a9a7f04615e40ec9d37 data/wegetthere/loot_table/blocks/se.json
 d3eb9759fd7f67aa947dbc37c6a5ec1dd722525d data/wegetthere/loot_table/blocks/sebformer.json
 f5b6ec15245cb176a44e08c06ee6a92d4b0e95a0 data/wegetthere/loot_table/blocks/sebonite_block.json
-b227ee0c9e9cb91d30dd94429b7e5dc45998093f data/wegetthere/loot_table/blocks/sebonite_deepslate_ore.json
 ba891b8172a96399280c4644ec7855a6f21d3842 data/wegetthere/loot_table/blocks/sebonite_ore.json
 146340d2016354fc02fa763f48bee72fd7842b0a data/wegetthere/loot_table/blocks/seb_button.json
 bb88779886e2e9a384ac072b81c2c314d9e5f041 data/wegetthere/loot_table/blocks/seb_door.json

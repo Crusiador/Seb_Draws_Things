@@ -22,7 +22,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SEBONITE_ORE.get())
-                .add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get())
 
                 .add(ModBlocks.SEB_STAIRS.get())
                 .add(ModBlocks.SEB_SLAB.get())
@@ -44,7 +43,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.SEBONITE_DEEPSLATE_ORE.get())
                 .add(ModBlocks.SEBONITE_ORE.get())
 
                 .add(ModBlocks.SEB_STAIRS.get())
