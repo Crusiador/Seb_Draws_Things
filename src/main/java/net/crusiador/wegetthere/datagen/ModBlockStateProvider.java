@@ -48,7 +48,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.COW);
         blockWithItem(ModBlocks.PUY);
 
-        blockWithItem(ModBlocks.SEBONITE_ORE);
         blockWithItem(ModBlocks.SEBONITE_DEEPSLATE_ORE);
         blockWithItem(ModBlocks.SEBONITE_BLOCK);
         blockWithItem(ModBlocks.SEB_LUCKY_BLOCK);
