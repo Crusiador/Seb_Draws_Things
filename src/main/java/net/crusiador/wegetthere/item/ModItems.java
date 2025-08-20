@@ -37,10 +37,10 @@ public class ModItems {
                     .attributes(ShovelItem.createAttributes(ModToolTiers.SEB, 1.5f, -3.0f))));
     public static final RegistryObject<Item> SEB_AXE = ITEMS.register("seb_axe",
             () -> new AxeItem(ModToolTiers.SEB, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.SEB, 8, -3.4f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.SEB, 8, -3.4f))));
     public static final RegistryObject<Item> SEB_HOE = ITEMS.register("seb_hoe",
             () -> new HoeItem(ModToolTiers.SEB, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.SEB, -5, 96f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.SEB, -5, 96f))));
 
 
     public static void register (IEventBus eventBus) {
