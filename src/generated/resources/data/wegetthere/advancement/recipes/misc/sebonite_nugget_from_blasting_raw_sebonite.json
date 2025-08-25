@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "wegetthere:sebonite_from_smelting_raw_sebonite"
+        "recipe": "wegetthere:sebonite_nugget_from_blasting_raw_sebonite"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "wegetthere:sebonite_from_smelting_raw_sebonite"
+      "wegetthere:sebonite_nugget_from_blasting_raw_sebonite"
     ]
   }
 }

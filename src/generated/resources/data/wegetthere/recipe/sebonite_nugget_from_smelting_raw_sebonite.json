@@ -5,9 +5,9 @@
   "experience": 0.25,
   "group": "sebonite",
   "ingredient": {
-    "item": "wegetthere:sebonite_ore"
+    "item": "wegetthere:raw_sebonite"
   },
   "result": {
-    "id": "wegetthere:sebonite"
+    "id": "wegetthere:sebonite_nugget"
   }
 }

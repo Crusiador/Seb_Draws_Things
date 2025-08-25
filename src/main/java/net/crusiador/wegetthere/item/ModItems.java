@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SEBONITE = ITEMS.register("sebonite",
             ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SEBONITE_NUGGET = ITEMS.register("sebonite_nugget",
+            ()-> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CRISPY_SOIL = ITEMS.register("crispy_soil",
             ()-> new Item(new Item.Properties().food(ModFoodProperties.CRISPY_SOIL)));

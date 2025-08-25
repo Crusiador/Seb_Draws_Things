@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sebonite": {
+    "has_sebonite_block": {
       "conditions": {
         "items": [
           {
-            "items": "wegetthere:sebonite"
+            "items": "wegetthere:sebonite_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sebonite"
+      "has_sebonite_block"
     ]
   ],
   "rewards": {

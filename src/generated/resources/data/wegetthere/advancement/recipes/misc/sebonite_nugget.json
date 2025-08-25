@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_sebonite": {
+    "has_sebonite": {
       "conditions": {
         "items": [
           {
-            "items": "wegetthere:raw_sebonite"
+            "items": "wegetthere:sebonite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "wegetthere:sebonite_from_blasting_raw_sebonite"
+        "recipe": "wegetthere:sebonite_nugget"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_sebonite"
+      "has_sebonite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "wegetthere:sebonite_from_blasting_raw_sebonite"
+      "wegetthere:sebonite_nugget"
     ]
   }
 }

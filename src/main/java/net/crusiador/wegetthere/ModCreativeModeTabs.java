@@ -64,6 +64,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_SEBONITE.get());
                         output.accept(ModBlocks.SEBONITE_BLOCK.get());
                         output.accept(ModItems.SEBONITE.get());
+                        output.accept(ModItems.SEBONITE_NUGGET.get());
+
 
                         output.accept(ModBlocks.SOIL.get());
 

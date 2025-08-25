@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.SEBONITE.get());
         basicItem(ModItems.RAW_SEBONITE.get());
+        basicItem(ModItems.SEBONITE_NUGGET.get());
 
         basicItem(ModItems.CRISPY_SOIL.get());
         basicItem(ModItems.BURNED_SOIL.get());

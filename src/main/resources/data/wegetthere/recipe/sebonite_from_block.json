@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "alexandrite",
+  "category": "misc",
   "key": {
-    "#": {
+    "A": {
       "item": "wegetthere:sebonite_nugget"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    "AAA",
+    "AAA",
+    "AAA"
   ],
   "result": {
-    "count": 2,
-    "id": "wegetthere:seb_trapdoor"
+    "count": 1,
+    "id": "wegetthere:sebonite"
   }
 }

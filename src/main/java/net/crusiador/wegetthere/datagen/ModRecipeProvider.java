@@ -39,86 +39,82 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ABA")
                 .pattern("AAA")
                 .define('A', Items.DIAMOND)
-                .define('B', Items.NETHERITE_INGOT)
-                .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND)).save(pRecipeOutput);
+                .define('B', ModBlocks.SEBONITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
                 .pattern(" B ")
-                .define('A', ModItems.SEBONITE.get())
+                .define('A', ModBlocks.SEBONITE_BLOCK.get())
                 .define('B', Items.STICK)
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" B ")
                 .pattern(" B ")
-                .define('A', ModItems.SEBONITE.get())
+                .define('A', ModBlocks.SEBONITE_BLOCK.get())
                 .define('B', Items.STICK)
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_SHOVEL.get())
                 .pattern(" A ")
                 .pattern(" B ")
                 .pattern(" B ")
-                .define('A', ModItems.SEBONITE.get())
+                .define('A', ModBlocks.SEBONITE_BLOCK.get())
                 .define('B', Items.STICK)
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_AXE.get())
                 .pattern(" AA")
                 .pattern(" BA")
                 .pattern(" B ")
-                .define('A', ModItems.SEBONITE.get())
+                .define('A', ModBlocks.SEBONITE_BLOCK.get())
                 .define('B', Items.STICK)
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SEB_HOE.get())
                 .pattern(" AA")
                 .pattern(" B ")
                 .pattern(" B ")
-                .define('A', ModItems.SEBONITE.get())
+                .define('A', ModBlocks.SEBONITE_BLOCK.get())
                 .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(), 9)
+                .requires(ModItems.SEBONITE.get())
                 .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.SEB_PLANK.get(),4)
                 .requires(ModBlocks.SEB_LOG.get())
                 .unlockedBy(getHasName(ModBlocks.SEB_LOG.get()), has(ModBlocks.SEB_LOG.get())).save(pRecipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE.get(),9)
-                .requires(ModBlocks.SEBONITE_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
-
-        oreSmelting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,200,"sebonite");
-        oreBlasting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE.get(),0.25f,100,"sebonite");
+        oreSmelting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(),0.25f,200,"sebonite");
+        oreBlasting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(),0.25f,100,"sebonite");
 
         oreSmelting(pRecipeOutput, SEB_SOIL, RecipeCategory.MISC, ModItems.CRISPY_SOIL.get(),0.25f,200,"crispy_soil");
-
         oreSmelting(pRecipeOutput, SEB_SOILER, RecipeCategory.MISC, ModItems.BURNED_SOIL.get(),0.25f,200,"burned_soil");
 
-        stairBuilder(ModBlocks.SEB_STAIRS.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_SLAB.get(), ModItems.SEBONITE.get());
+        stairBuilder(ModBlocks.SEB_STAIRS.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_SLAB.get(), ModItems.SEBONITE_NUGGET.get());
 
-        buttonBuilder(ModBlocks.SEB_BUTTON.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-        pressurePlate(pRecipeOutput, ModBlocks.SEB_PRESSURE_PLATE.get(), ModItems.SEBONITE.get());
+        buttonBuilder(ModBlocks.SEB_BUTTON.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.SEB_PRESSURE_PLATE.get(), ModItems.SEBONITE_NUGGET.get());
 
-        fenceBuilder(ModBlocks.SEB_FENCE.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-        fenceGateBuilder(ModBlocks.SEB_FENCE_GATE.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_WALL.get(), ModItems.SEBONITE.get());
+        fenceBuilder(ModBlocks.SEB_FENCE.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.SEB_FENCE_GATE.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_WALL.get(), ModItems.SEBONITE_NUGGET.get());
 
-        doorBuilder(ModBlocks.SEB_DOOR.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-        trapdoorBuilder(ModBlocks.SEB_TRAPDOOR.get(), Ingredient.of(ModItems.SEBONITE.get())).group("alexandrite")
-                .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
-
-
-
+        doorBuilder(ModBlocks.SEB_DOOR.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.SEB_TRAPDOOR.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
+                .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
 
     }
 

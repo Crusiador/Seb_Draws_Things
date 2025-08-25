@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 200,
   "experience": 0.25,
   "group": "sebonite",
   "ingredient": {
     "item": "wegetthere:sebonite_ore"
   },
   "result": {
-    "id": "wegetthere:sebonite"
+    "id": "wegetthere:sebonite_nugget"
   }
 }
