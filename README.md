@@ -1,7 +1,5 @@
-Minecraft 1.21 Forge
+Welcome to the Seb Draws Things mod for Minecraft Forge 1.21
 
+In this mod you will find Seb themed tools blocks and more.
 
-This is a mod i made for a talent show in Seb.draws.things Discord server
-It features 25 diffrent blocks that togethere make a picture of sebs masterpiece the Duomo Di Milano
-
-
+This Mod is currently in progress and will get updates over the next year.
