@@ -16,6 +16,9 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
+
+
+// This Registers Blocks.
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, wegetthere.MOD_ID);
@@ -159,6 +162,7 @@ public class ModBlocks {
 
 
 
+    // This makes the Blocks into an Item.
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

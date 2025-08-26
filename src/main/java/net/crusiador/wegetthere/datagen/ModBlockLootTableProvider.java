@@ -19,11 +19,14 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
 
+
+// Makes Loottables.
 public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected ModBlockLootTableProvider(HolderLookup.Provider pRegistries) {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags(), pRegistries);
     }
 
+    // Makes the Blocks drop themselves.
     @Override
     protected void generate() {
         dropSelf(ModBlocks.S1.get());
@@ -90,6 +93,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     }
 
 
+    // Makes it so you can register a loottable better for ores.
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
         return this.createSilkTouchDispatchTable(

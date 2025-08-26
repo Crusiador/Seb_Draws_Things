@@ -8,6 +8,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+
+// Makes Tags to tag different Items like Tools.
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_SEB_TOOL = createTag("needs_seb_tool");
