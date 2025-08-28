@@ -14,11 +14,13 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
+// Makes the recipes .json files.
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {
         super(pOutput, pRegistries);
     }
 
+    // Makes the items smeltable.
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
         List<ItemLike> SEB_SMELTABLES = List.of(ModItems.RAW_SEBONITE.get(),
@@ -27,6 +29,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         List<ItemLike> SEB_SOIL = List.of(ModBlocks.SOIL.get());
         List<ItemLike> SEB_SOILER = List.of(ModItems.CRISPY_SOIL.get());
 
+        // Makes recipes for shaped recipes.
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SEBONITE_BLOCK.get())
                 .pattern("AAA")
                 .pattern("AAA")
@@ -82,6 +85,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.STICK)
                 .unlockedBy(getHasName(ModBlocks.SEBONITE_BLOCK.get()), has(ModBlocks.SEBONITE_BLOCK.get())).save(pRecipeOutput);
 
+
+
+        // Makes recipes for shapless recipes.
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(), 9)
                 .requires(ModItems.SEBONITE.get())
                 .unlockedBy(getHasName(ModItems.SEBONITE.get()), has(ModItems.SEBONITE.get())).save(pRecipeOutput);
@@ -91,12 +97,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.SEB_LOG.get()), has(ModBlocks.SEB_LOG.get())).save(pRecipeOutput);
 
 
+
+        // Makes recipes for furnaces.
         oreSmelting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(),0.25f,200,"sebonite");
         oreBlasting(pRecipeOutput, SEB_SMELTABLES, RecipeCategory.MISC, ModItems.SEBONITE_NUGGET.get(),0.25f,100,"sebonite");
 
         oreSmelting(pRecipeOutput, SEB_SOIL, RecipeCategory.MISC, ModItems.CRISPY_SOIL.get(),0.25f,200,"crispy_soil");
         oreSmelting(pRecipeOutput, SEB_SOILER, RecipeCategory.MISC, ModItems.BURNED_SOIL.get(),0.25f,200,"burned_soil");
 
+
+        // Makes recipes for the more special blocks like stairs and fences.
         stairBuilder(ModBlocks.SEB_STAIRS.get(), Ingredient.of(ModItems.SEBONITE_NUGGET.get())).group("alexandrite")
                 .unlockedBy(getHasName(ModItems.SEBONITE_NUGGET.get()), has(ModItems.SEBONITE_NUGGET.get())).save(pRecipeOutput);
         slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEB_SLAB.get(), ModItems.SEBONITE_NUGGET.get());
@@ -121,6 +131,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
 
+    // These are helpers so you can make the recipes easier.
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pIngredients, pCategory, pResult,

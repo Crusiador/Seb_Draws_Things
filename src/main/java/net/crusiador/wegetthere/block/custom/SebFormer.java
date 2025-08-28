@@ -16,11 +16,40 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
+
+
+
+
+
+
+
+/*
+    WARNING IF YOU SCROLL DOWN YOU WILL SPOIL YOURSELF IF YOU REALLY WANT TO GET SPOILED PLS DO NOT SPOIL OTHERS
+    JUST KEEP EVERYTHING TO YOURSELF!!!!!!!
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// This Block transforms items that get dropped on it into another Block.
 public class SebFormer extends Block {
     public SebFormer(Properties properties) {
         super(properties);
     }
 
+
+    // Makes Sound.
     @Override
     protected InteractionResult useWithoutItem(BlockState pState, Level pLevel, BlockPos pPos,
                                                Player pPlayer, BlockHitResult pHitResult) {
@@ -28,6 +57,8 @@ public class SebFormer extends Block {
         return InteractionResult.SUCCESS;
     }
 
+
+    // This checks if a transformable item is on top of the block and if yes transforms the item.
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity) {
