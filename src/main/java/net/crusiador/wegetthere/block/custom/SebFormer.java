@@ -1,5 +1,6 @@
 package net.crusiador.wegetthere.block.custom;
 
+import com.google.common.collect.ImmutableMap;
 import net.crusiador.wegetthere.block.ModBlocks;
 import net.crusiador.wegetthere.item.ModItems;
 import net.minecraft.core.BlockPos;
@@ -9,12 +10,17 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.registries.RegistryObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 
@@ -42,10 +48,52 @@ import net.minecraft.world.phys.BlockHitResult;
 
 
 
+
+
+
+
+
+
+
 // This Block transforms items that get dropped on it into another Block.
 public class SebFormer extends Block {
+    private static final Map<Item, RegistryObject<Block>> mapping =
+            ImmutableMap.<Item, RegistryObject<Block>>builder()
+    .put(ModItems.SEBONITE_NUGGET.get(), ModBlocks.S1)
+    .put(Items.STONECUTTER, ModBlocks.S2)
+    .put(Items.END_ROD, ModBlocks.S3)
+    .put(Items.BOOK, ModBlocks.S4)
+    .put(Items.DIAMOND, ModBlocks.S5)
+    .put(Items.COAL, ModBlocks.S6)
+    .put(Items.GOLDEN_CARROT, ModBlocks.S7)
+    .put(Items.CAKE, ModBlocks.S8)
+    .put(Items.RED_BED, ModBlocks.S9)
+    .put(Items.FIRE_CHARGE, ModBlocks.S10)
+    .put(Items.ROOTED_DIRT, ModBlocks.S11)
+    .put(Items.BARREL, ModBlocks.S12)
+    .put(Items.BLAZE_ROD, ModBlocks.S13)
+    .put(Items.NETHER_STAR, ModBlocks.S14)
+    .put(Items.WAXED_WEATHERED_CUT_COPPER_STAIRS, ModBlocks.S15)
+    .put(Items.OBSIDIAN, ModBlocks.S16)
+    .put(Items.CRYING_OBSIDIAN, ModBlocks.S17)
+    .put(Items.OBSERVER, ModBlocks.S18)
+    .put(Items.QUARTZ, ModBlocks.S19)
+    .put(Items.IRON_BARS, ModBlocks.S20)
+    .put(Items.DIRT, ModBlocks.S21)
+    .put(Items.AMETHYST_BLOCK, ModBlocks.S22)
+    .put(Items.STONE, ModBlocks.S23)
+    .put(Items.FLINT, ModBlocks.S24)
+    .put(Items.ENDER_CHEST, ModBlocks.S25)
+    .put( Items.EMERALD, ModBlocks.SHREK)
+    .put(Items.MILK_BUCKET, ModBlocks.COW)
+    .put(Items.TROPICAL_FISH, ModBlocks.PUY)
+    .put(Items.PUFFERFISH, ModBlocks.PY)
+                    .build()
+    ;
     public SebFormer(Properties properties) {
         super(properties);
+
+
     }
 
 
@@ -63,120 +111,16 @@ public class SebFormer extends Block {
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity) {
 
-            if(itemEntity.getItem().getItem() == ModItems.SEBONITE_NUGGET.get()) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S1.get(), itemEntity.getItem().getCount()));
+
+            net.minecraft.world.item.Item item = itemEntity.getItem().getItem();
+            if(mapping.containsKey(item)) {
+                RegistryObject<Block> itemLike = mapping.get(item);
+                itemEntity.setItem(new ItemStack(itemLike.get(), itemEntity.getItem().getCount()));
             }
 
-            if(itemEntity.getItem().getItem() == Items.STONECUTTER) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S2.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.END_ROD) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S3.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.BOOK) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S4.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.DIAMOND) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S5.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.COAL) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S6.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.GOLDEN_CARROT) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S7.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.CAKE) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S8.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.RED_BED) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S9.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.FIRE_CHARGE) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S10.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == ModItems.CRISPY_SOIL.get()) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S11.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == ModItems.BURNED_SOIL.get()) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S12.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.BLAZE_ROD) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S13.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.NETHER_STAR) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S14.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.WAXED_WEATHERED_CUT_COPPER_STAIRS) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S15.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.OBSIDIAN) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S16.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.CRYING_OBSIDIAN) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S17.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.OBSERVER) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S18.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.QUARTZ) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S19.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.IRON_BARS) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S20.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.DIRT) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S21.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.AMETHYST_BLOCK) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S22.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.STONE) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S23.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.FLINT) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S24.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.ENDER_CHEST) {
-                itemEntity.setItem(new ItemStack(ModBlocks.S25.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.EMERALD) {
-                itemEntity.setItem(new ItemStack(ModBlocks.SHREK.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.MILK_BUCKET) {
-                itemEntity.setItem(new ItemStack(ModBlocks.COW.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.TROPICAL_FISH) {
-                itemEntity.setItem(new ItemStack(ModBlocks.PUY.get(), itemEntity.getItem().getCount()));
-            }
-
-            if(itemEntity.getItem().getItem() == Items.PUFFERFISH) {
-                itemEntity.setItem(new ItemStack(ModBlocks.PY.get(), itemEntity.getItem().getCount()));
+            else {
+                super.stepOn(pLevel, pPos, pState, pEntity);
+                return;
             }
 
         super.stepOn(pLevel, pPos, pState, pEntity);
