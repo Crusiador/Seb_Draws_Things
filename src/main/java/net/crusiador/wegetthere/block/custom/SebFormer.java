@@ -59,7 +59,7 @@ import java.util.Map;
 public class SebFormer extends Block {
     private static final Map<Item, RegistryObject<Block>> mapping =
             ImmutableMap.<Item, RegistryObject<Block>>builder()
-    .put(ModItems.SEBONITE_NUGGET.get(), ModBlocks.S1)
+    .put(Items.BREWING_STAND, ModBlocks.S1)
     .put(Items.STONECUTTER, ModBlocks.S2)
     .put(Items.END_ROD, ModBlocks.S3)
     .put(Items.BOOK, ModBlocks.S4)
