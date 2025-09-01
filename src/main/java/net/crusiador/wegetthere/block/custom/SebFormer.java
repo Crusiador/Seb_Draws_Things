@@ -19,7 +19,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.HashMap;
 import java.util.Map;
 
 
@@ -84,7 +83,7 @@ public class SebFormer extends Block {
     .put(Items.STONE, ModBlocks.S23)
     .put(Items.FLINT, ModBlocks.S24)
     .put(Items.ENDER_CHEST, ModBlocks.S25)
-    .put( Items.EMERALD, ModBlocks.SHREK)
+    .put(Items.EMERALD, ModBlocks.SHREK)
     .put(Items.MILK_BUCKET, ModBlocks.COW)
     .put(Items.TROPICAL_FISH, ModBlocks.PUY)
     .put(Items.PUFFERFISH, ModBlocks.PY)
